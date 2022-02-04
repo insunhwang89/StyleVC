@@ -1,0 +1,10 @@
+matplotlib==3.3.0 
+inflect==0.3.1
+librosa==0.6.0
+numba==0.48 
+tensorboardX==1.8
+Unidecode==1.0.22
+pillow
+tqdm
+g2p_en
+jupyter notebook
