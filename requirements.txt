@@ -8,3 +8,5 @@ pillow
 tqdm
 g2p_en
 jupyter notebook
+transformers
+jiwer

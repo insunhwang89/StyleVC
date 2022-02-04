@@ -11,6 +11,10 @@ from librosa.util import normalize
 from librosa.filters import mel as librosa_mel_fn
 import torch
 
+import parselmouth
+from parselmouth.praat import call
+from scipy import signal, interpolate
+
 def trim_silence(wav, top_db, fft_size, hop_size):
     '''Trim leading and trailing silence
     Useful for M-AILABS datasets if we choose to trim the extra 0.5 silence at beginning and end.

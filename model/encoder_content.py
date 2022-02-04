@@ -38,7 +38,7 @@ class ContentEncoder(nn.Module):
         n_layers            = hp.encoder_attn_n_layers 
         n_heads             = hp.encoder_attn_n_heads
         ffn_dim             = hp.encoder_ffn_dim
-        ffn_style_dim       = hp.style_dim
+        ffn_style_dim       = 0 # hp.style_dim, not use!
 
         # prenet        
         self.prenet         = Prenet(in_dim, hidden_dim, out_dim, dropout)
