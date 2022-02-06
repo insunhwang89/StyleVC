@@ -10,3 +10,5 @@ g2p_en
 jupyter notebook
 transformers
 jiwer
+praat-parselmouth==0.3.3
+quote
