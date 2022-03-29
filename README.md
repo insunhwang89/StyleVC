@@ -115,9 +115,3 @@ Please cite the paper if you find StyleVC useful.
 ```
 TODO
 ```
-# @article{ddd,
-#   title={dddd },
-#   author={ddd},
-#   journal={ddd},
-#   year={2022}
-# }
