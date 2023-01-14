@@ -113,5 +113,12 @@ We provide pretrained checkpoint. Download the checkpoint file below and put it 
 # Citation
 Please cite the paper if you find StyleVC useful.
 ```
-TODO
+@inproceedings{hwang2022stylevc,
+  title={StyleVC: Non-Parallel Voice Conversion with Adversarial Style Generalization},
+  author={Hwang, In-Sun and Lee, Sang-Hoon and Lee, Seong-Whan},
+  booktitle={2022 26th International Conference on Pattern Recognition (ICPR)},
+  pages={23--30},
+  year={2022},
+  organization={IEEE}
+}
 ```
